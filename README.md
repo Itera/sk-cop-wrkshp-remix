@@ -1,3 +1,18 @@
+# Poznamky
+- bolo potrebne premenovat `.env.example` na `.env`, inak hadzal error ohladom `Environment variable not found: DATABASE_URL`
+- Gotcha! `.env` fajl je v gitignore liste, takze ked ste novy, kto s tymto projektom pracuje, musite vykonat ⬆
+- az potom zafungovalo `npm run setup` a nasledne `npm run dev`
+
+
+
+
+
+
+
+
+
+------------------------------------------------------- ORIGINAL Readme.md -----------------------------------------------------------------
+
 # Remix Indie Stack
 
 ![The Remix Indie Stack](https://repository-images.githubusercontent.com/465928257/a241fa49-bd4d-485a-a2a5-5cb8e4ee0abf)
