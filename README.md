@@ -2,6 +2,8 @@
 - bolo potrebne premenovat `.env.example` na `.env`, inak hadzal error ohladom `Environment variable not found: DATABASE_URL`
 - Gotcha! `.env` fajl je v gitignore liste, takze ked ste novy, kto s tymto projektom pracuje, musite vykonat ⬆
 - az potom zafungovalo `npm run setup` a nasledne `npm run dev`
+- neviem ci to je tak automaticky, ale pri jednoduchej stranke mi robi HMR aj 300ms a este ke tomu musim refreshnut pagu, aby som videl vysledok (asi to treba niekde nastavit)
+- - alebo mi len hapruje VS Code
 
 
 
