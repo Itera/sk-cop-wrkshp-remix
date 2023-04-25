@@ -4,8 +4,7 @@
 - az potom zafungovalo `npm run setup` a nasledne `npm run dev`
 - neviem ci to je tak automaticky, ale pri jednoduchej stranke mi robi HMR aj 300ms a este ke tomu musim refreshnut pagu, aby som videl vysledok (asi to treba niekde nastavit)
 - - alebo mi len hapruje VS Code
-
-
+- bolo potrebné nainštalovať novšiu verziu `@remix-run/web-fetch@` kvôli bugu súvisiacemu s Node v20.0.0 (detaily tu: https://github.com/remix-run/remix/issues/6118)
 
 
 
